@@ -2142,7 +2142,6 @@ input, select, textarea {
 			}
 
 			.image.avatar img {
-				border-radius: 100%;
 				width: 100%;
 			}
 
@@ -2636,6 +2635,8 @@ input, select, textarea {
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
+			display: flex;
+			flex-direction: column;
 		}
 
 		#header .image.avatar {
@@ -2699,7 +2700,7 @@ input, select, textarea {
 				margin-top: 0;
 				padding-top: 0;
 			}
-
+/*
 /* Poptrox */
 
 	@-moz-keyframes spin {
@@ -3218,4 +3219,8 @@ input, select, textarea {
 				padding-left: 0;
 			}
 
+	}
+
+	#submitButtom{
+		margin-top: 1.5em;
 	}

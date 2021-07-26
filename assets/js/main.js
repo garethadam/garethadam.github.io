@@ -115,3 +115,8 @@
 			});
 
 })(jQuery);
+
+function jumpToGetInTouch()
+{
+	document.getElementById('three').scrollIntoView({behavior: "smooth", block:	"start"});
+}
