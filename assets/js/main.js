@@ -94,7 +94,7 @@
 			}
 
 	// Main Sections: Two.
-
+/*
 		// Lightbox gallery.
 			$window.on('load', function() {
 
@@ -113,7 +113,7 @@
 				});
 
 			});
-
+*/
 })(jQuery);
 
 function jumpToGetInTouch()
