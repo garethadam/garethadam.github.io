@@ -2129,9 +2129,49 @@ input, select, textarea {
 			width: 100%;
 		}
 
-			.image.fit img {
+			.image.fit #first {
 				width: 100%;
+				height: 12rem;
+				background: url('https://garethadam.github.io/images/thumbs/01.jpg') no-repeat center;
+				background-size: contain;
 			}
+
+			.image.fit #second {
+				width: 100%;
+				height: 12rem;
+				background: url('https://garethadam.github.io/images/thumbs/02.jpg') no-repeat center;
+				background-size: contain;
+			}
+
+			.image.fit #third {
+				width: 100%;
+				height: 12rem;
+				background: url('https://garethadam.github.io/images/thumbs/03.jpg') no-repeat center;
+				background-size: contain;
+			}
+
+			.image.fit #fourth {
+				width: 100%;
+				height: 12rem;
+				background: url('https://garethadam.github.io/images/thumbs/04.jpg') no-repeat center;
+				background-size: contain;
+			}
+
+			.image.fit #fifth {
+				width: 100%;
+				height: 12rem;
+				background: url('https://garethadam.github.io/images/thumbs/05.jpg') no-repeat center;
+				background-size: contain;
+			}
+
+			.image.fit #sixth {
+				width: 100%;
+				height: 12rem;
+				background: url('https://garethadam.github.io/images/thumbs/06.jpg') no-repeat center;
+				background-size: contain;
+			}
+
+
 
 		.image.avatar {
 			border-radius: 100%;
